@@ -9,6 +9,7 @@ class Admin extends MY_Controller
         parent::__construct();
         $this->load->model('User_model'); // Load model
         $this->load->helper('tanggal_helper');
+        $this->load->helper('domain_helper');
     }
 
     public function index()
